@@ -31,4 +31,4 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"         # Keep as root if your site is structured correctly
-          output_location: "public" # This is where Hugo outputs static files
+          output_location: "public" # This is where Hugo outputs static files.
