@@ -6,14 +6,28 @@
     <description>Recent content on My New Hugo Site hosted in Azure static web app</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 09:00:42 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Hugo, Azure Static Web Apps and deployed via Github actions</title>
+      <link>http://localhost:1313/posts/beispiel-post/</link>
+      <pubDate>Tue, 28 Jan 2025 09:00:42 +0100</pubDate>
+      <guid>http://localhost:1313/posts/beispiel-post/</guid>
+      <description>&lt;h2 id=&#34;this-is-my-second-post-using-hugo-azure-static-web-apps-and-deployed-via-github-actions&#34;&gt;This is my second post using Hugo, Azure Static Web Apps and deployed via Github actions.&lt;/h2&gt;&#xA;&lt;p&gt;GitHub is a platform for version control and collaboration, allowing developers to work together on projects from anywhere. GitHub Actions is a powerful automation tool that enables continuous integration and continuous deployment (CI/CD) workflows directly from your GitHub repository. Hugo is a fast and flexible static site generator written in Go, which can be easily deployed on Azure Static Web Apps, providing a scalable and cost-effective solution for hosting static websites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post Hello World</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 22 Jan 2025 15:54:20 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Wed, 22 Jan 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;h2 id=&#34;welcome-to-my-static-web-app-on-azure&#34;&gt;Welcome to My Static Web App on Azure!&lt;/h2&gt;&#xA;&lt;p&gt;This is my first post using Hugo, Azure Static Web Apps and deployed via Github actions.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;welcome-to-my-static-web-app-on-azure&#34;&gt;Welcome to My Static Web App on Azure!!!&lt;/h2&gt;&#xA;&lt;p&gt;This is my first post using Hugo, Azure Static Web Apps and deployed via Github actions.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
