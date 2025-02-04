@@ -19,7 +19,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: "0.141.0"
+          extended: true
+
+      - name: Clean Hugo Cache
+        run: hugo mod clean
 
       - name: Build Hugo Site
         run: hugo --minify
@@ -27,8 +31,9 @@ jobs:
       - name: Deploy to Azure Static Web App
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          azure_static_web_apps_api_token:
+            ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"         # Keep as root if your site is structured correctly
-          output_location: "public" # This is where Hugo outputs static files.
+          app_location: "public" # Change from "/" to "public"
+          output_location: ""
